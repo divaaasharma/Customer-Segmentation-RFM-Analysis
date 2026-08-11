@@ -1,14 +1,20 @@
 <div align="center">
 
+<table>
+<tr>
+<td align="center" bgcolor="#6C63FF">
+
 # 🛍️ E-Commerce Customer Intelligence
 
 ### 📊 RFM Analysis • 🤖 K-Means Clustering • 💡 Business Insights
 
-<img src="banner.png" alt="E-Commerce Customer Analytics" width="100%"/>
-
-### 🚀 Turning Customer Data into Actionable Business Intelligence
+**Turning Customer Data into Actionable Business Intelligence**
 
 **Python | RFM Analysis | K-Means | SQL Server | Power BI | Excel**
+
+</td>
+</tr>
+</table>
 
 </div>
 
