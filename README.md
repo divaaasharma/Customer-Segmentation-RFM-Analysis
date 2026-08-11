@@ -10,139 +10,63 @@
 
 ---
 
-## Project Overview
+## About
 
-This project is an end-to-end E-Commerce Customer Analytics and Segmentation solution developed to understand customer purchasing behavior and identify meaningful customer groups.
+An end-to-end E-Commerce Customer Analytics project using RFM Analysis and K-Means Clustering to understand customer behavior, segment customers, and generate actionable business insights.
 
-The project combines Python, RFM Analysis, K-Means Clustering, SQL Server, and Power BI to transform raw e-commerce transaction data into actionable business insights.
+## Objectives
 
-The analysis focuses on identifying High-Value Customers, Loyal Customers, Potential Customers, At-Risk Customers, and Inactive Customers to support targeted marketing, customer retention, and revenue optimization.
-
----
-
-## Project Objectives
-
-- Analyze e-commerce customer purchasing behavior
-- Calculate Recency, Frequency, and Monetary metrics
-- Generate RFM scores for individual customers
-- Apply K-Means clustering to identify customer groups
+- Analyze customer purchasing behavior
+- Calculate RFM scores
+- Apply K-Means clustering
 - Perform customer segmentation using SQL Server
-- Analyze revenue contribution across customer segments
-- Identify customers requiring attention
 - Build an interactive Power BI dashboard
-- Generate actionable business recommendations
-
----
+- Identify high-value and at-risk customers
 
 ## Technology Stack
 
-| Technology | Purpose |
-|---|---|
-| Python | Data analysis and preprocessing |
-| Pandas | Data manipulation and transformation |
-| NumPy | Numerical operations |
-| Scikit-learn | K-Means clustering |
-| Jupyter Notebook | Python development and analysis |
-| SQL Server | RFM analysis and customer segmentation |
-| Power BI | Interactive dashboard and visualization |
-| Microsoft Excel | Data preparation and supporting datasets |
-
----
+**Python | Pandas | NumPy | Scikit-learn | SQL Server | Power BI | Excel**
 
 ## Project Architecture
 
 ```text
-                    E-COMMERCE TRANSACTION DATA
-                               |
-                               v
-                    DATA CLEANING & PREPARATION
-                               |
-                               v
-                       PYTHON ANALYSIS
-                               |
-                +--------------+--------------+
-                |                             |
-                v                             v
-          RFM CALCULATION              K-MEANS CLUSTERING
-                |                             |
-                v                             |
-           RFM SCORING                        |
-                |                             |
-                +-------------+---------------+
-                              |
-                              v
-                    SQL CUSTOMER SEGMENTATION
-                              |
-                              v
-                     POWER BI DASHBOARD
-                              |
-                              v
-                     BUSINESS INSIGHTS
----
-## RFM Analysis
+E-Commerce Transaction Data
+            ↓
+       Data Cleaning
+            ↓
+      Python Analysis
+            ↓
+    RFM Analysis & Scoring
+            ↓
+     K-Means Clustering
+            ↓
+   SQL Customer Segmentation
+            ↓
+     Power BI Dashboard
+            ↓
+      Business Insights
 
-RFM Analysis evaluates customers using three key metrics:
+## **Customer Segments**
 
-- **Recency:** How recently a customer purchased
-- **Frequency:** How frequently a customer purchases
-- **Monetary:** How much a customer spends
+| Segment | Business Focus |
+|---|---|
+| High-Value Customers | Retention & Loyalty |
+| Loyal Customers | Cross-Selling |
+| Potential Customers | Customer Growth |
+| At-Risk Customers | Re-Engagement |
+| Inactive Customers | Win-Back Campaigns |
 
-These metrics are converted into RFM scores to measure customer value and engagement.
+## **SQL Server Analysis**
 
----
-
-## K-Means Clustering
-
-K-Means Clustering was applied to group customers with similar purchasing behavior based on their RFM characteristics.
-
-The resulting clusters were interpreted into meaningful business segments.
-
----
-
-## SQL Server Analysis
-
-SQL Server was used for:
-
-- RFM calculation
-- RFM scoring
-- Customer segmentation
-- Revenue analysis
-- Customer-level analysis
-- Identifying customers requiring attention
+SQL Server was used for RFM calculations, customer scoring, segmentation, revenue analysis, and customer-level analysis.
 
 Main SQL file:
 
 `Customer_Segmentation.sql`
 
----
+## **Power BI Dashboard**
 
-## Customer Segments
-
-| Segment | Business Focus |
-|---|---|
-| High-Value Customers | Retention and loyalty |
-| Loyal Customers | Cross-selling |
-| Potential Customers | Customer growth |
-| At-Risk Customers | Re-engagement |
-| Inactive Customers | Win-back campaigns |
-
----
-
-## Power BI Dashboard
-
-The interactive dashboard includes:
-
-- Total Customers
-- Total Monetary Value
-- Average Recency
-- Average Purchase Frequency
-- Top Customers by RFM Score
-- Revenue by Customer Segment
-- Average RFM Score by Segment
-- Customer Segment Distribution
-- Customers Requiring Attention
-
-### Dashboard Preview
+The interactive dashboard presents customer segments, RFM metrics, revenue, and customers requiring attention.
 
 <div align="center">
 
@@ -150,9 +74,7 @@ The interactive dashboard includes:
 
 </div>
 
----
-
-## Key Metrics
+## **Key Metrics**
 
 | Metric | Result |
 |---|---:|
@@ -161,35 +83,22 @@ The interactive dashboard includes:
 | Average Recency | 130.59 |
 | Average Frequency | 1.51 |
 
----
-
-## Business Insights
+## **Business Insights**
 
 - High-value customers can be prioritized for loyalty programs.
-- Loyal customers can be targeted for cross-selling and retention.
+- Loyal customers can be targeted for cross-selling.
 - Potential customers can be targeted with personalized promotions.
 - At-risk customers can be approached through re-engagement campaigns.
 - Inactive customers can be targeted through win-back campaigns.
 
----
-
-## Project Workflow
+## **Repository Structure**
 
 ```text
-E-Commerce Data
-      ↓
-Data Cleaning
-      ↓
-Python Analysis
-      ↓
-RFM Analysis
-      ↓
-RFM Scoring
-      ↓
-K-Means Clustering
-      ↓
-SQL Segmentation
-      ↓
-Power BI Dashboard
-      ↓
-Business Insights
+Customer-Segmentation-RFM-Analysis/
+│
+├── README.md
+├── banner.png.png
+├── Customer_Segmentation_RFM.pbix
+├── Customer_Segmentation.sql
+├── Customer_Segmentation_RFM_Project_Presentation.pptx
+└── Customer_Segmentation_Dashboard.png
