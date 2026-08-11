@@ -140,7 +140,6 @@ SQL Server was used for customer-level analytical processing and segmentation.
 
 The SQL workflow includes:
 
-```text
 Transaction Data
        |
        v
@@ -387,23 +386,8 @@ The final solution can support:
 ---
 
 ## About the Author
-
-<div align="center">
-
 ### Divyanshi Sharma
 
 **MBA — Artificial Intelligence & Data Science**
 
 Data Analytics | Machine Learning | Business Intelligence | SQL | Python
-
-</div>
-
----
-
-<div align="center">
-
-**Customer Segmentation & RFM Analysis**
-
-E-Commerce Customer Analytics Project
-
-</div>
