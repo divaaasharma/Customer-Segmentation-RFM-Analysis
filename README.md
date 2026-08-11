@@ -1,12 +1,18 @@
 <div align="center">
 
-<img src="banner.png.png" alt="Customer Segmentation & RFM Analysis" width="100%">
-# 🛒 E-Commerce Customer Analytics using RFM & K-Means
+# 🛍️ E-Commerce Customer Intelligence
 
-An end-to-end **E-Commerce Customer Analytics** project using **Python, RFM Analysis, K-Means Clustering, SQL Server, Excel, and Power BI** to understand customer purchasing behavior, segment customers, identify high-value and at-risk customers, and generate actionable business insights.
+### 📊 RFM Analysis • 🤖 K-Means Clustering • 💡 Business Insights
+
+<img src="banner.png" alt="E-Commerce Customer Analytics" width="100%"/>
+
+### 🚀 Turning Customer Data into Actionable Business Intelligence
+
+**Python | RFM Analysis | K-Means | SQL Server | Power BI | Excel**
+
+</div>
 
 ---
-
 ## About the Project
 
 This project focuses on analyzing E-Commerce transaction data to understand customer purchasing behavior and identify meaningful customer segments.
